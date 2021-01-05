@@ -1,5 +1,5 @@
-# Desafio 30 dias de CSS
+# :rocket: Desafio 30 dias de CSS :rocket:
 
-## <b>1º Dia</b> - Menu com efeitos transition no hover. /* Gray scale */
-
+## 1º Dia (05/01/2021) :white_check_mark:
+- Menu com efeitos transition no hover. Layout: /* Gray-scale */
 ![Primeiro dia](./img/menu.gif)
