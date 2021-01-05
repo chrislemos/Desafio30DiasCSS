@@ -1,0 +1,68 @@
+/* reset css */
+body, ul, li, p {
+    margin: 0;
+    font-size: 1.3rem;
+    font-family: 'Oswald';
+    list-style: none;
+}
+
+body{
+    background-color: rgb(110, 110, 110);
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(48, 48, 48);
+  
+}
+
+main {
+    display: block;
+    margin: auto;
+    align-self: center;
+    padding: 1px 0px 20px 0px;
+    width: 700px;
+    background-color: rgb(170, 170, 170);
+}
+
+main h1, p {
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.botoes{
+    padding-top: 10px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    transition: width 0.2s linear, background-color 0.2s linear;
+}
+
+.botoes:hover {
+    background-color: #666666;
+    width: 130px;
+}
+
+.cor1{ 
+    border-bottom: 5px solid #00f5d4;
+}
+
+.cor2{
+    border-bottom: 5px solid #00bbf9;
+}
+
+.cor3 {
+    border-bottom: 5px solid #fee440;
+}
+
+.cor4{
+    border-bottom: 5px solid #f15bb5;
+}
+
+.cor5{
+    border-bottom: 5px solid #9b5de5;
+}
