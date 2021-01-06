@@ -8,4 +8,16 @@
 
 :link: [Meu codigo](https://github.com/chrislemos/Desafio30DiasCSS/tree/master/Desafios/dia1)
 
-## 2º Dia (06/01/2021) :clock1:
+## 2º Dia (06/01/2021) :white_check_mark:
+
+- Cenário de pesca onde o pescador consegue um peixe haha
+- Utilizei nesse exercício:
+- - animation;
+- - transform;
+- - CSS Grid. 
+
+![segundo dia](./img/dia2.gif)
+
+:link: [Meu codigo](https://github.com/chrislemos/Desafio30DiasCSS/tree/master/Desafios/dia2)
+
+## 3º Dia (07/01/2021) :clock1:
