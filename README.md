@@ -35,7 +35,7 @@
 
 ## 4º Dia (08/01/2021) :white_check_mark:
 
-- Letreiro Neon.
+- Letreiro Neon baseado no tema da minha Live, pra quem não conhece ainda: [Twitch.tv/christianlemoss](https://www.twitch.tv/christianlemoss). :tv:
 - Utilizei nesse exercício:
 - - Box-shadow;
 - - Flex-box;
