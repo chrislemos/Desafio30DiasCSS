@@ -20,4 +20,17 @@
 
 :link: [Meu codigo](https://github.com/chrislemos/Desafio30DiasCSS/tree/master/Desafios/dia2)
 
-## 3º Dia (07/01/2021) :clock1:
+## 3º Dia (07/01/2021) :white_check_mark:
+
+- Álbum de fotografias no formato polaroid.
+- Utilizei nesse exercício:
+- - box-shadow;
+- - CSS Grid;
+- - Opacity;
+- - Transition.
+
+![terceiro dia](./img/dia3.gif)
+
+:link: [Meu codigo](https://github.com/chrislemos/Desafio30DiasCSS/tree/master/Desafios/dia3)
+
+## 4º Dia (08/01/2021) :clock1:
