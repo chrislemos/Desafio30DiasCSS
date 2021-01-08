@@ -1,0 +1,89 @@
+body{
+    background-color: #000;
+    background-image: url("./img/bg.png");
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+.conteudo{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.circExterno{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 460px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: azulBox 2s ease-in-out infinite alternate;
+}
+.circInterno{
+    width: 500px;
+    height: 400px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: rosaBox 2s ease-in-out infinite alternate;
+}
+.texto{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.fonteRosa {
+  font-family: 'Linoleo Script Regular';
+  font-size: 4rem;
+  text-align: center;
+  animation: rosa 2s ease-in-out infinite alternate;
+}
+.fonteAzul {
+  font-family: 'Neon Regular';
+  font-size: 3.7rem;
+  text-align: center;
+  animation: azul 2s ease-in-out infinite alternate;
+}
+
+@keyframes azul {
+    from {
+        color: #fff;
+        text-shadow: 0 0 10px #00aeff, 0 0 30px #00aeff,  0 0 50px #00aeff, 0 0 70px #00aeff, 0 0 90px #00aeff;
+    }
+    to {
+        color: rgb(175, 175, 175);
+        text-shadow: 0 0 20px #00aeff, 0 0 40px #00aeff, 0 0 60px #00aeff, 0 0 80px #00aeff, 0 1 90px #00aeff;
+    }
+}
+
+@keyframes rosa {
+    from {
+        color: #fff;
+        text-shadow: 0 0 10px #ff005e, 0 0 30px #ff005e, 0 0 50px #ff005e, 0 0 70px #ff005e, 0 0 90px #ff005e;
+    }
+    to {
+        color: rgb(175, 175, 175);
+        text-shadow: 0 0 20px #ff005e, 0 0 40px #ff005e, 0 0 60px #ff005e, 0 0 80px #ff005e, 0 1 90px #ff005e;
+    }
+}
+@keyframes rosaBox {
+    from {
+        box-shadow: 1px 1px 20px #ff005e, -1px -1px 20px #ff005e;
+    }
+    to {
+        box-shadow: 10px 10px 20px #ff005e, -10px -510x 20px #ff005e;
+    }
+}
+@keyframes azulBox {
+    from {
+        box-shadow: 10px 10px 20px #00aeff, -10px -10px 20px #00aeff;
+    }
+    to {
+        box-shadow: 1px 1px 0px #00aeff, -1px -1px 0px #00aeff;
+    }
+}
